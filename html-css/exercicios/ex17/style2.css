@@ -1,0 +1,20 @@
+body {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  font-family: Arial, verdana, serif;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: right;
+}
+
+p {
+  text-align: justify;
+  text-indent: 30px;
+}

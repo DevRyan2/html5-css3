@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Storm Gust';
+    src: url('../fonts/Storm\ Gust.otf') format('opentype'),
+         url('../fonts/Storm\ Gust.ttf') format('truetype');
+}
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Storm Gust", Times, serif;
+  font-size: 3em;
+  font-weight: normal;
+}
