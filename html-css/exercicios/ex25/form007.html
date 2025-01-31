@@ -6,7 +6,7 @@
     <title>Formulário</title>
 </head>
 <body>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
@@ -59,13 +59,18 @@
 
             <p>
                 <label for="iprof">Profissão: </label>
-                <input type="text" name="prof" id="iprof">
-                <datalist>
-                    <option value="ADM">Administrador</option>
-                    <option value="content">Contabilista</option>
-                    <option value="DEV">Desenvolvedor</option>
-                    <option value="PROF">Professor</option>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option>Administrador</option>
+                    <option>Contabilista</option>
+                    <option>Desenvolvedor</option>
+                    <option>Professor</option>
                 </datalist>
+            </p>
+            <p>
+                <label for="imsg">Mensagem: </label> <br>
+
+                <textarea name="msg" id="imsg" rows="10" cols="30"></textarea>
             </p>
         </p>
 
