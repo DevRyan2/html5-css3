@@ -11,17 +11,20 @@
 
     .container {
       text-align: center;
+      background-color: lightsalmon;
+      
       display: flex;
-      background-color: rgb(109, 3, 3);
+      flex-flow: row nowrap;
     }
 
     .items {
-      flex: auto;
       margin: 1px;
-      background-color: blue;
-      color: white;
-      font-weight: bold;
+      background-color: lightskyblue;
       border: 1px solid black;
+
+      flex-basis: 250px;
+      flex-shrink: 1;
+      flex-grow: 1;
     }
 
   </style>
@@ -34,10 +37,6 @@
     <div class="items">A</div>
     <div class="items">B</div>
     <div class="items">C</div>
-    <div class="items">D</div>
-    <div class="items">E</div>
-    <div class="items">F</div>
-    <div class="items">G</div>
 
 
   </div>
