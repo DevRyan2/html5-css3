@@ -11,16 +11,20 @@
 
     .container {
       text-align: center;
+      background-color: lightgreen;
+      
       display: flex;
-      background-color: rgb(109, 3, 3);
+      flex-flow: row wrap;
+      
     }
-
+    
     .items {
-      flex: auto;
+      
+      flex-basis: 150px;
+
+      background-color: lightsalmon;
       margin: 1px;
-      background-color: blue;
-      color: white;
-      font-weight: bold;
+      color: black;
       border: 1px solid black;
     }
 
@@ -32,11 +36,11 @@
   <div class="container">
 
     <div class="items">A</div>
-    <div class="items">B</div>
+    <div class="items">Outro conteúdo</div>
     <div class="items">C</div>
-    <div class="items">D</div>
+    <div class="items">Conteudo um pouco maior</div>
     <div class="items">E</div>
-    <div class="items">F</div>
+    <div class="items">Conteudo maior ainda, que vai ocupar mais espaço</div>
     <div class="items">G</div>
 
 
