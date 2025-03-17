@@ -33,6 +33,7 @@ body {
 .header > h1 {
     text-align: left;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
 }
 
 
@@ -75,7 +76,7 @@ body {
 
 
 
-main {
+.main-content {
     background-color: white;
     margin: 10px;
     padding: 10px;
@@ -85,13 +86,13 @@ main {
 }
 
 
-main > h1 {
+.main-content > h1 {
 
 }
 
 
 
-main > p {
+.main-content > p {
     text-align: justify;
     text-indent: 20px;
     padding-top: 10px;
